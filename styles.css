@@ -1,0 +1,88 @@
+* {
+  box-sizing: content-box;
+}
+body {
+  font-family: Helvetica;
+}
+
+p {
+  margin: 0px;
+}
+
+.container {
+  width: 400px;
+  margin: 0 auto;
+  border: 1px solid #B3B3B3;
+  border-radius: 6px;
+}
+
+.greenbox {
+  color: #FFFFFF;
+  background-color: #15995E;
+  padding: 5px 0px;
+}
+
+.header-lines {
+  display: inline-block;
+  width: 300px;
+  padding-left: 10px;
+}
+
+.header-leaves {
+  display: inline-block;
+}
+
+.lines {
+  width: 400px;
+  color: #034E9D;
+}
+.line {
+  border-bottom: 1px solid black;
+}
+.route {
+  display: inline-block;
+  width: 310px;
+  height: 100px;
+  padding-left: 10px;
+}
+.departure {
+  display: inline-block;
+  text-align: center;
+  float: right;
+  margin: 20px 15px 0 0;
+}
+.alert {
+  display: inline-block;
+  color: #C1272D;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 2px 2px 2px 0;
+  margin: 18px 0 0 10px;
+  border: 1px solid #C1272D;
+  border-radius: 6px;
+}
+.number {
+  font-size: 40px;
+  font-weight: bold;
+  display: inline-block;
+  float: left;
+  padding-top: 10px;
+}
+.direction {
+  font-size: 14px;
+  font-weight: bold;
+  float: none;
+  clear: left;
+}
+.stop{
+  font-size: 12px;
+}
+.minute {
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 0px;
+}
+.minutes {
+  font-size: 14px;
+  font-weight: bold;
+}
