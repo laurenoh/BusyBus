@@ -24,11 +24,11 @@ p {
 
 .header-lines {
   display: inline-block;
-  width: 300px;
-  padding-left: 10px;
+  width: 290px;
+  padding-left: 15px;
 }
 
-.header-leaves {
+.header-frequency {
   display: inline-block;
 }
 
@@ -42,8 +42,8 @@ p {
 .route {
   display: inline-block;
   width: 310px;
-  height: 100px;
-  padding-left: 10px;
+  height: 90px;
+  padding-left: 15px;
 }
 .departure {
   display: inline-block;
@@ -51,13 +51,18 @@ p {
   float: right;
   margin: 20px 15px 0 0;
 }
+
+.caps{
+  text-transform: uppercase;
+}
+
 .alert {
   display: inline-block;
   color: #C1272D;
-  font-size: 14px;
+  font-size: 9px;
   font-weight: normal;
-  padding: 2px 2px 2px 0;
-  margin: 18px 0 0 10px;
+  padding: 3px;
+  margin: 22px 0 0 10px;
   border: 1px solid #C1272D;
   border-radius: 6px;
 }
@@ -74,13 +79,10 @@ p {
   float: none;
   clear: left;
 }
-.stop{
-  font-size: 12px;
-}
+
 .minute {
   font-size: 30px;
   font-weight: bold;
-  padding-top: 0px;
 }
 .minutes {
   font-size: 14px;
